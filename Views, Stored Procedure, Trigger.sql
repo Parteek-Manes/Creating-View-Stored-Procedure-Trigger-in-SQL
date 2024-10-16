@@ -1,6 +1,6 @@
 
 
-
+/* Create 4 tables */
 
 Create table Customer
 (
@@ -38,7 +38,7 @@ Quantity int
 
 
 
-
+/* Insert values into tables */
 
 INSERT INTO Customer (CustomerID, CustFName, CustMName, CustLName)
 VALUES (129, "Linh", "Le Khanh", "Huynh");
@@ -92,6 +92,7 @@ INSERT INTO OrderLine (OrderLineID, ProductID, OrderID, Quantity) VALUES (26002,
 INSERT INTO OrderLine (OrderLineID, ProductID, OrderID, Quantity) VALUES (14002,3, 4002, 1);
 INSERT INTO OrderLine (OrderLineID, ProductID, OrderID, Quantity) VALUES (24002,2, 4002, 1);
 
+/*  */
 
 UPDATE ProductOrder 
 SET Total = (
