@@ -1,7 +1,9 @@
 Learning Project:
+
 Creates a database to store Customer Order infromation for a proposed E-commerce business.
 
 Creates:
+
 4 tabels (customers, products, Product Orders, order lines)
 
 A view to show all orders from Product Orders tabel (While calculating order total)
