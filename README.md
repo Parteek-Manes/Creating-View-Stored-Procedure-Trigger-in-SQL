@@ -6,7 +6,7 @@ Creates:
 
 4 tables (customers, products, Product Orders, order lines)
 
-A view to show all orders from Product Orders table (While calculating order total)
+A View to show all orders from Product Orders table (While calculating order total)
 
 A Stored Procedure to select all orders for a given date
 
